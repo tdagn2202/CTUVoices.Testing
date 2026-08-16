@@ -1,0 +1,8 @@
+appId: host.exp.exponent
+---
+- launchApp
+- tapOn: "Kênh môn học"
+- tapOn: "Khám phá lớp học"
+- tapOn: "CT176-01"
+- tapOn: "Gửi yêu cầu tham gia"
+- assertVisible: "Đang chờ duyệt"

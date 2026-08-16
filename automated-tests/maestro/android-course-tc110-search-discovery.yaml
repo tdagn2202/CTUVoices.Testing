@@ -1,0 +1,8 @@
+appId: host.exp.exponent
+---
+- launchApp
+- tapOn: "Kênh môn học"
+- tapOn: "Khám phá lớp học"
+- tapOn: "Tìm kiếm môn học..."
+- inputText: "CT176"
+- assertVisible: "CT176"

@@ -113,4 +113,15 @@ TC-116,TD_ANDROID_COURSE_STUDENT_001; TD_ANDROID_COURSE_TARGET_001,Update course
 TC-117,TD_ANDROID_COURSE_STUDENT_001; TD_ANDROID_COURSE_TARGET_001,Leave a course channel as a student member on Android,
 TC-118,TD_ANDROID_COURSE_OWNER_001; TD_ANDROID_COURSE_POST_TO_PIN_001,Pin and unpin an important announcement post in course feed on Android,
 TC-119,TD_ANDROID_COURSE_OWNER_001; TD_ANDROID_COURSE_STUDENT_MSSV_001,Add member directly by Student Code (MSSV) in course management on Android,
+TC-120,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_TEXT_VALID_001,Create a valid public text post,
+TC-121,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_TEXT_EMPTY_001,Prevent publishing an empty post without text or media,
+TC-122,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_IMAGES_VALID_001,Create a post with multiple image attachments (JPEG/PNG),
+TC-123,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_ANONYMOUS_VALID_001,Create an Anonymous Post (Đăng bài ẩn danh),
+TC-124,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_DRAFT_VALID_001,Save and edit a Post Draft (Nháp bài viết),
+TC-125,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_TOXIC_CONTENT_001,Handle AI Content Moderation Rejection (Bài viết bị từ chối do vi phạm),
+TC-126,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_REJECTED_POST_001; TD_POST_OP_APPEAL_MSG_001,Submit an appeal for a rejected post (Khiếu nại bài viết bị từ chối),
+TC-127,TD_POST_OP_ACCOUNT_LECTURER_001; TD_POST_OP_ANNOUNCEMENT_VALID_001,Publish an Official Announcement Post in Course Channel,
+TC-128,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_TARGET_MY_POST_001,Delete own post as Author,
+TC-129,TD_POST_OP_ACCOUNT_STUDENT_001; TD_POST_OP_FILTER_TYPE_001,Filter feed posts by post type (Text, Image, Video, Announcement),
+
 
