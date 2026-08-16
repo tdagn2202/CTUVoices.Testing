@@ -1,0 +1,23 @@
+appId: host.exp.exponent
+---
+# TC-100: Send a valid direct text message to an active contact on Android
+- launchApp
+# Điều hướng vào tab Chat / Messages
+- tapOn:
+    id: "tab-chat"
+    optional: true
+- tapOn: "Trò chuyện"
+# Chọn người nhận tin nhắn
+- tapOn: "android_chat_recipient_001"
+# Nhập nội dung tin nhắn thử nghiệm
+- tapOn:
+    id: "chat-input-text"
+    optional: true
+- inputText: "Xin chào, bạn có thể trao đổi về môn học CTU Voices không?"
+# Nhấn nút Gửi
+- tapOn:
+    id: "chat-send-button"
+    optional: true
+- tapOn: "Send"
+# Xác minh tin nhắn hiển thị thành công trong khung chat
+- assertVisible: "Xin chào, bạn có thể trao đổi về môn học CTU Voices không?"

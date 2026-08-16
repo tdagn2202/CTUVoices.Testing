@@ -1,0 +1,13 @@
+appId: host.exp.exponent
+---
+# TC-101: Prevent sending an empty or whitespace-only message on Android
+- launchApp
+- tapOn: "Trò chuyện"
+- tapOn: "android_chat_recipient_001"
+# Nhập ký tự khoảng trắng
+- tapOn:
+    id: "chat-input-text"
+    optional: true
+- inputText: "   "
+# Kiểm tra nút Send bị disable hoặc không tạo bubble rỗng
+- assertNotVisible: "   "

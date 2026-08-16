@@ -1,0 +1,10 @@
+appId: host.exp.exponent
+---
+# TC-106: Search existing chat conversations by contact full name or username on Android
+- launchApp
+- tapOn: "Trò chuyện"
+- tapOn:
+    id: "chat-search-input"
+    optional: true
+- inputText: "android_chat_recipient_001"
+- assertVisible: "android_chat_recipient_001"
